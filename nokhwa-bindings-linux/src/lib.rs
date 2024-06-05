@@ -180,7 +180,7 @@ mod internal {
 
                     self.camera_format = CameraFormat::new(
                         Resolution::new(format.width, format.height),
-                        frame_format: ,
+                        frame_format,
                         fps,
                     );
                     Ok(())
